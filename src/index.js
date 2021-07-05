@@ -4,7 +4,7 @@ import ApiService from './js/apiService.js';
 import imgTemplate from './templates/imgTemplate.hbs'
 
 const refs = {
-    searchForm: document.querySelector('.form-search'),
+    searchForm: document.querySelector('.search-form'),
     loadMoreBtn: document.querySelector('[data-action="load-more"]'),
     gallery: document.querySelector('.gallery'),
 };
